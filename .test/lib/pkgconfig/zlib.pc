@@ -1,0 +1,13 @@
+prefix=/Users/wooyelim/Desktop/project/.test
+exec_prefix=/Users/wooyelim/Desktop/project/.test
+libdir=/Users/wooyelim/Desktop/project/.test/lib
+sharedlibdir=/Users/wooyelim/Desktop/project/.test/lib
+includedir=/Users/wooyelim/Desktop/project/.test/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
