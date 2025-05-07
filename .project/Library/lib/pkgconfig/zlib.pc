@@ -1,0 +1,13 @@
+prefix=C:/project/.project/Library
+exec_prefix=C:/project/.project/Library
+libdir=C:/project/.project/Library/lib
+sharedlibdir=C:/project/.project/Library/lib
+includedir=C:/project/.project/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
